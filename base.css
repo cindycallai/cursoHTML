@@ -1,0 +1,97 @@
+* {margin: 0; padding: 0;}
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(43, 229, 229);
+    padding: 10px 20px 0px;
+    border: groove;
+    border-color: white;
+}
+.header {
+    background-color: rgb(43, 229, 229);
+    min-height: 150px;
+    border-image: 0;
+    border: hidden;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(43, 229, 229);
+    min-height: 150px;
+    border-image: 0;
+    border: hidden;
+}
+.menu ul a img{
+    border-top: -15px;
+    width: 205px;
+    height: 220px;
+    border-top: 0;
+    border-left: 0;
+}
+.menu button{
+    width: 120px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius:10px;
+}
+form{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 200px;
+    margin-left: 500px;
+    margin-top: -330px;
+    border-color: aqua;
+}
+label{
+    width: 300px;
+    text-align: center;
+    display: grid;
+    padding-right: 5px;
+}
+fieldset{
+    margin: 10px 0;
+    border-radius: 0;
+    border-color: rgb(155, 144, 144);
+    margin: 5px;
+}
+button{
+    width: 100px;
+    align-self: center;
+    display: inline-block;
+    padding-right: 5px;
+}
+.table{
+    width: 100px;
+    height: 0;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+select{
+    width: 300px;
+    text-align: center;
+    display: grid;
+    padding-right: 5px;
+}
